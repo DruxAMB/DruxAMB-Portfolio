@@ -110,7 +110,7 @@ img {
 
 .dark-theme .section__title-1::after,
 .dark-theme .section__title-2::after {
-  background-color: hsla(14, 70%, 50%, 0.2);
+  background-color: hsla(95, 70%, 50%, 0.2);
 }
 
 .dark-theme .home__arrow, .home__line, .about__line{
