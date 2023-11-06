@@ -1,6 +1,7 @@
 const navMenu = document.getElementById('nav-menu')
 const navToggle = document.getElementById('nav-toggle')
 const navClose = document.getElementById('nav-close')
+const changeProfile = document.getElementById("profile")
 
 if(navToggle){
   navToggle.addEventListener('click', () => {
@@ -34,7 +35,7 @@ const contactMessage = document.getElementById('contact-message')
 const sendEmail = (e) => {
 e.preventDefault()
 
-emailjs.sendForm("service_lxev7p8", "template_s9cmduo", "#contact-form", "E4mCxvYZo-gW6zHnT")
+emailjs.sendForm("service_1yahf6a", "template_qd57rbs", "#contact-form", "OOHSnHItm_DOAcwoP")
 .then(() => {
     contactMessage.textContent = 'Message sent successfully ✅'
 
@@ -83,7 +84,7 @@ const iconTheme = 'ri-sun-line';
 const selectedTheme = localStorage.getItem('selected-theme');
 const selectedIcon = localStorage.getItem('selected-icon');
 
-const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light';
+const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark'  && changeProfile.setAttribute("src", "./img/profile.png") : 'light' && changeProfile.setAttribute("src", "./img/profile2.png");
 const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'dark-theme' : 'ri-sun-line';
 
 const toggleTheme = () => {

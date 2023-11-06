@@ -3,7 +3,7 @@
 :root {
   --header-height: 3.5rem;
 
-  --first-color: hsl(14, 98%, 50%);
+  --first-color: hsl(117, 79%, 19%);
   --black-color: hsl(0, 0%, 0%);
   --black-color-light: hsl(0, 0%, 40%);
   --white-color: hsl(0, 0%, 95%);
@@ -95,7 +95,7 @@ img {
 }
 
  body.dark-theme {
-  --first-color: hsl(14, 80%, 50%);
+  --first-color: hsla(108, 80%, 50%, 0.89);
   --black-color: hsl(0, 0%, 18%);
   --black-color-light: hsl(0, 0%, 30%);
   --title-color: hsl(0, 0%, 95%);
@@ -199,7 +199,7 @@ img {
   content: "";
   width: 40px;
   height: 28px;
-  background-color: hsla(14, 98%, 50%, .2);
+  background-color: hsla(118, 98%, 50%, 0.2);
   position: absolute;
   top: -4px;
   right: -8px;
@@ -403,8 +403,7 @@ img {
 
 .home__perfil {
   position: relative;
-  justify-self: center;
-  
+  justify-self: center;  
 }
 
 .home__image {
@@ -490,7 +489,7 @@ img {
 
 .home__description b {
   background: linear-gradient(90deg,
-      hsla(14, 98%, 50%, .3),
+      hsla(120, 98%, 50%, 0.3),
       hsla(14, 98%, 50%, 0));
 }
 
