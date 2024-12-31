@@ -1,37 +1,73 @@
 [
   {
     "id": 1,
-    "name": "Driwwwle",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A platform for web developers to showcase their projects",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
-    "source_code": "https://github.com/itsnitinr/driwwwle-v2",
-    "demo": "https://driwwwle.com/"
+    "name": "learnOnchain",
+    "image": "https://imgur.com/Dink16p.png",
+    "description": "an LMS platform to foster innovation and bring the next billion users Onchain.",
+    "tags": ["next", "solidity", "pinata", "clerk", "mongodb", "onchainkit"],
+    "source_code": "https://github.com/DruxAMB/base-learn",
+    "demo": "https://base-learn.vercel.app/"
   },
   {
     "id": 2,
-    "name": "PCB Cupid",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "name": "tokenForge",
+    "image": "https://imgur.com/9prAEQH.png",
+    "description": "Transform your vision into tokens instantly on tokenForge.",
+    "tags": ["next", "postcss", "solana/web3js", "tailwind", "metaplex"],
+    "source_code": "https://github.com/DruxAMB/tokenForge",
+    "demo": "https://token-forge-five.vercel.app/"
   },
   {
     "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "name": "GeoMarkt",
+    "image": "https://imgur.com/7WlffJ0.png",
+    "description": "A platform for prediction & real estate market, all in one.",
+    "tags": ["next", "graphql", "solidity", "web3js", "thirdweb", "zksync", "onchainkit"],
+    "source_code": "https://github.com/DruxAMB/GeoMarkt",
+    "demo": "https://noisy-raincoat-many.on-fleek.app/"
   },
   {
     "id": 4,
-    "name": "VSCode Portfolio",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "name": "utipay",
+    "image": "https://imgur.com/jymsyfP.png",
+    "description": "The Luxury of Seamless Bills Payment",
+    "tags": ["php", "mysql", "scss", "hack", "javascript", "monnify", "paystack", "kudapay"],
+    "source_code": "https://github.com/DruxAMB/utipay",
+    "demo": "https://utipay.com.ng/"
+  },
+  {
+    "id": 5,
+    "name": "bondX",
+    "image": "https://imgur.com/fpqZYoQ.png",
+    "description": "A decentralized platform for creating, managing and trading tokenized bonds",
+    "tags": ["next", "onchainkit", "radix-u", "tailwind", "reclaimprotocol", "ethers"],
+    "source_code": "https://github.com/DruxAMB/bondx-frontend",
+    "demo": "https://bondx-frontend-gamma.vercel.app"
+  },
+  {
+    "id": 6,
+    "name": "Gotocourse Africa",
+    "image": "https://imgur.com/pQnzoq1.png",
+    "description": "Worked on 2 gotocourse website builder template",
+    "tags": ["html", "css", "javascript"],
+    "demo": "https://gotocourse.com/"
+  },
+  {
+    "id": 7,
+    "name": "myComputerENGR",
+    "image": "https://imgur.com/pjBr5bI.png",
+    "description": "Gadget ( computer, smartphones & apple devices ) Repair Company",
+    "tags": ["next", "framer-motion", "tailwind"],
+    "source_code": "https://github.com/DruxAMB/my-computer-engr",
+    "demo": "https://myComputerENGR.com.ng/"
+  },
+  {
+    "id": 8,
+    "name": "IP Address Tracker",
+    "image": "https://imgur.com/nC5m3Br.png",
+    "description": "It helps in tracking the current location of an IP ADDRESS",
+    "tags": ["react", "leaflet", "vite", "axios"],
+    "source_code": "https://github.com/DruxAMB/DruxAMB---IP-Address-Tracker",
+    "demo": "https://drux-amb-ip-address-tracker.vercel.app/"
   }
 ]
