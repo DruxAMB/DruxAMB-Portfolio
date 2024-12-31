@@ -50,33 +50,54 @@ const GithubPage = ({ repos, user }) => {
 };
 
 export async function getStaticProps() {
-  const userRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
-    {
-      headers: {
-        Authorization: `token ${process.env.GITHUB_API_KEY}`,
-      },
-    }
-  );
-  const user = await userRes.json();
+  try {
+    // Fetch user data
+    const userRes = await fetch(
+      `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
+      {
+        headers: {
+          Authorization: `token ${process.env.GITHUB_API_KEY}`,
+        },
+      }
+    );
 
-  const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`,
-    {
-      headers: {
-        Authorization: `token ${process.env.GITHUB_API_KEY}`,
-      },
+    if (!userRes.ok) {
+      throw new Error(`Failed to fetch user data: ${userRes.status}`);
     }
-  );
-  let repos = await repoRes.json();
-  repos = repos
-    .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 6);
 
-  return {
-    props: { title: 'GitHub', repos, user },
-    revalidate: 10,
-  };
+    const user = await userRes.json();
+
+    // Fetch repos data
+    const repoRes = await fetch(
+      `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`,
+      {
+        headers: {
+          Authorization: `token ${process.env.GITHUB_API_KEY}`,
+        },
+      }
+    );
+
+    if (!repoRes.ok) {
+      throw new Error(`Failed to fetch repos: ${repoRes.status}`);
+    }
+
+    let repos = await repoRes.json();
+    repos = repos
+      .sort((a, b) => b.stargazers_count - a.stargazers_count)
+      // .slice(0, 100);
+
+    return {
+      props: { title: 'GitHub', repos, user },
+      revalidate: 10,
+    };
+  } catch (error) {
+    console.error(error.message);
+
+    return {
+      props: { title: 'GitHub', repos: [], user: null },
+      revalidate: 10,
+    };
+  }
 }
 
 export default GithubPage;

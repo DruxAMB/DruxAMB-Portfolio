@@ -4,6 +4,7 @@
   color: rgb(225, 228, 232);
   font-family: 'Source Sans Pro', sans-serif;
   border-right: 1px solid var(--explorer-border);
+  box-shadow: 5px 0 0px rgba(0, 0, 0, 0.1);
 }
 
 .title {
