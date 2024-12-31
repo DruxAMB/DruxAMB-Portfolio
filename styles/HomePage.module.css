@@ -101,10 +101,26 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.illustration {
-  height: 500px;
-  width: 460px;
+.illustrationContainer {
+  position: relative;
 }
+
+.illustration {
+  height: 480px;
+  width: 460px;
+  position: absolute;
+  top: 0;
+  right: 3%;
+  border: 2px solid var(--accent-color);
+  background-color: var(--main-bg);
+}
+
+.box {
+  height: 480px;
+  width: 460px;
+  background: var(--accent-color);
+}
+
 
 /* 4K Screens */
 @media screen and (min-width: 2000px) {
@@ -127,11 +143,14 @@
   .outlined {
     font-size: 2rem;
   }
-  .illustration {
-    height: 900px;
+  .illustration, .box {
+    height: 400px;
     width: 700px;
+  } .illustration {
+    top: 8%;
   }
 }
+
 
 /* iPad Pro */
 @media screen and (max-width: 1100px) {
@@ -153,12 +172,14 @@
     font-size: 1.75rem;
     margin: 0.75rem auto 3rem;
   }
-  .illustration {
-    position: absolute;
-    bottom: -50px;
-    right: 0;
-    height: 700px;
-    width: 600px;
+  .content {
+    margin-bottom: 5rem;
+  }
+  .illustration, .box {
+    right: 40%;
+    top: 50%;
+    height: 500px;
+    width: 400px;
   }
 }
 
@@ -174,7 +195,7 @@
   .bio {
     font-size: 1.5rem;
   }
-  .illustration {
+  .illustration, .box {
     height: 550px;
     width: 420px;
     bottom: -50px;
@@ -185,7 +206,7 @@
   .container {
     display: flex;
   }
-  .illustration {
+  .illustration, .box {
     display: none;
   }
 }
@@ -208,7 +229,7 @@
   .outlined {
     font-size: 1rem;
   }
-  .illustration {
+  .illustration, .box {
     position: absolute;
     bottom: 0;
     right: 0;
