@@ -16,6 +16,13 @@
   background: rgba(97, 218, 251, 0.25);
 }
 
+.radixui {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.radixui:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+
 .node {
   border: 0.1rem solid rgb(131, 205, 41);
 }
@@ -30,31 +37,10 @@
   background: rgba(67, 153, 52, 0.25);
 }
 
-.redux {
-  border: 0.1rem solid rgb(118, 74, 188);
-}
-.redux:hover {
-  background: rgba(118, 74, 188, 0.25);
-}
-
-.razorpay {
-  border: 0.1rem solid rgb(82, 143, 240);
-}
-.razorpay:hover {
-  background: rgba(82, 143, 240, 0.25);
-}
-
-.material-ui {
-  border: 0.1rem solid rgb(25, 118, 210);
-}
-.material-ui:hover {
-  background: rgba(25, 118, 210, 0.25);
-}
-
-.bulma {
+.onchainverify {
   border: 0.1rem solid rgb(0, 209, 178);
 }
-.bulma:hover {
+.onchainverify:hover {
   background: rgb(0, 209, 178, 0.25);
 }
 
@@ -62,6 +48,12 @@
   border: 2px solid rgb(0, 112, 243);
 }
 .next:hover {
+  background: rgba(0, 112, 243, 0.25);
+}
+.onchainkit {
+  border: 2px solid rgb(0, 112, 243);
+}
+.onchainkit:hover {
   background: rgba(0, 112, 243, 0.25);
 }
 
@@ -79,9 +71,184 @@
   background: rgba(255, 65, 84, 0.25);
 }
 
-.css-modules {
+.html {
+  border: 2px solid rgb(200, 60, 25);
+}
+.html:hover {
+  background: rgba(200, 60, 25, 0.251);
+}
+
+.web3js {
+  border: 2px solid rgb(200, 60, 25);
+}
+.web3js:hover {
+  background: rgba(200, 60, 25, 0.251);
+}
+
+.postcss {
+  border: 2px solid rgb(200, 60, 25);
+}
+.postcss:hover {
+  background: rgba(200, 60, 25, 0.251);
+}
+
+.aerodrome {
+  border: 2px solid rgb(200, 60, 25);
+}
+.aerodrome:hover {
+  background: rgba(200, 60, 25, 0.251);
+}
+
+.css {
   border: 2px solid rgb(21, 114, 182);
 }
-.css-modules:hover {
+.css:hover {
   background: rgba(21, 114, 182, 0.25);
+}
+
+.javascript {
+  border: 2px solid rgb(216, 212, 21);
+}
+.javascript:hover {
+  background: rgba(216, 213, 21, 0.25);
+}
+
+.shadcnui {
+  border: 2px solid rgb(0, 0, 0);
+}
+.shadcnui:hover {
+  background: rgba(0, 0, 0, 0.255);
+}
+
+.zkfetch {
+  border: 2px solid rgb(0, 0, 0);
+}
+.zkfetch:hover {
+  background: rgba(0, 0, 0, 0.255);
+}
+
+.zksync {
+  border: 2px solid rgb(0, 0, 0);
+}
+.zksync:hover {
+  background: rgba(0, 0, 0, 0.255);
+}
+
+.solidity {
+  border: 2px solid rgb(87, 89, 93);
+}
+.solidity:hover {
+  background: rgba(87, 89, 93, 0.252);
+}
+
+.pinata {
+  border: 2px solid rgb(126, 86, 228);
+}
+.pinata:hover {
+  background: rgba(126, 86, 228, 0.255);
+}
+
+.farcaster {
+  border: 2px solid rgb(126, 86, 228);
+}
+.farcaster:hover {
+  background: rgba(126, 86, 228, 0.255);
+}
+
+.framer {
+  border: 2px solid rgb(126, 86, 228);
+}
+.framer:hover {
+  background: rgba(126, 86, 228, 0.255);
+}
+
+.vite {
+  border: 2px solid rgb(126, 86, 228);
+}
+.vite:hover {
+  background: rgba(126, 86, 228, 0.255);
+}
+
+.php {
+  border: 2px solid rgb(68, 103, 211);
+}
+.php:hover {
+  background: rgba(68, 104, 211, 0.252);
+}
+
+.paystack {
+  border: 2px solid rgb(68, 103, 211);
+}
+.paystack:hover {
+  background: rgba(68, 104, 211, 0.252);
+}
+
+.clerk {
+  border: 2px solid rgb(33, 51, 207);
+}
+.clerk:hover {
+  background: rgba(33, 50, 207, 0.252);
+}
+
+.mysql {
+  border: 2px solid rgb(207, 146, 33);
+}
+.mysql:hover {
+  background: rgba(207, 146, 33, 0.255);
+}
+
+.solana {
+  border: 2px solid rgb(32, 16, 80);
+}
+.solana:hover {
+  background: rgba(32, 16, 80, 0.25);
+}
+
+.metaplex {
+  border: 2px solid rgb(243, 243, 243);
+}
+.metaplex:hover {
+  background: rgba(243, 243, 243, 0.255);
+}
+
+.graphql {
+  border: 2px solid rgb(148, 39, 188);
+}
+.graphql:hover {
+  background: rgba(148, 39, 188, 0.252);
+}
+
+.thirdweb {
+  border: 2px solid rgb(148, 39, 188);
+}
+.thirdweb:hover {
+  background: rgba(148, 39, 188, 0.252);
+}
+
+.scss {
+  border: 2px solid rgb(181, 13, 111);
+}
+.scss:hover {
+  background: rgba(181, 13, 111, 0.25);
+}
+
+.monnify {
+  border: 2px solid rgb(13, 178, 181);
+}
+.monnify:hover {
+  background: rgba(13, 178, 181, 0.254);
+}
+
+.reclaimprotocol {
+  border: 2px solid rgb(13, 35, 181);
+}
+.reclaimprotocol:hover {
+  background: rgba(13, 35, 181, 0.252);
+}
+
+.ethers {
+  border: 2px solid rgb(47, 13, 181);
+}
+.ethers:hover {
+  background: rgba(47, 13, 181, 0.255);
 }
